@@ -1,0 +1,53 @@
+db.createCollection("doctor_info")
+
+db.doctor_info.insert( [
+{
+	title:"医生基本信息登记",
+	effectiveTime: ISODate("2017-01-17T03:03:37.312Z"),
+	id:"440104000000998",
+	name:"王医生",
+	administrativeGender: "男",
+	representedOrganization: {
+			id: "患者就诊的医疗机构标识",
+			name: "广东省中医院大学城医院",
+			addr: "广东省广州市番禺区大学城内环西路55号"
+		},
+	telecom: "1866595458",
+	mailBox:"962509645@qq.com",
+	regionalAuthority:[
+		{
+		regionalCode:"441600000000",
+		regionalName:"广东省河源市"
+		},
+		{
+		regionalCode:"44142000000",
+		regionalName:"广东省梅州市丰顺县"
+		}
+	]	
+},	
+{
+	title:"医生基本信息登记",
+	effectiveTime: ISODate("2017-01-17T03:03:37.312Z"),
+	id:"440104000000999",
+	name:"于医生",
+	administrativeGender: "女",
+	representedOrganization: {
+			id: "患者就诊的医疗机构标识",
+			name: "广东省中医院大学城医院",
+			addr: "广东省广州市番禺区大学城内环西路55号"
+		},
+	telecom: "18925161686",
+	mailBox:"96250927@qq.com",
+	regionalAuthority:[
+		{
+		regionalCode:"441600000000",
+		regionalName:"广东省河源市"
+		},
+		{
+		regionalCode:"44142000000",
+		regionalName:"广东省梅州市丰顺县"
+		}
+	]	
+}
+	
+]

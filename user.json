@@ -1,0 +1,147 @@
+db.createCollection("user")
+
+db.user.insert( [
+{
+	user_id:"44182711222200001",
+	password:"123456",
+	roleName:"居民",
+	role_id:"1",
+	roleOperation:{
+		accessPersonalInformation:{
+			query:"true"
+		},
+		viewRecords:{
+			query:"true"
+		}
+	}
+},
+{
+	user_id:"44182711222200002",
+	password:"123456",
+	roleName:"居民",
+	role_id:"1",
+	roleOperation:{
+		accessPersonalInformation:{
+			query:"true"
+		},
+		viewRecords:{
+			query:"true"
+		}
+	}
+},
+{
+	user_id:"44182711222200003",
+	password:"123456",
+	roleName:"居民",
+	role_id:"1",
+	roleOperation:{
+		accessPersonalInformation:{
+			query:"true"
+		},
+		viewRecords:{
+			query:"true"
+		}
+	}
+},
+{
+	user_id:"44182711222200004",
+	password:"123456",
+	roleName:"居民",
+	role_id:"1",
+	roleOperation:{
+		accessPersonalInformation:{
+			query:"true"
+		},
+		viewRecords:{
+			query:"true"
+		}
+	}
+},
+{
+	user_id:"44182711222200005",
+	password:"123456",
+	roleName:"居民",
+	role_id:"1",
+	roleOperation:{
+		accessPersonalInformation:{
+			query:"true"
+		},
+		viewRecords:{
+			query:"true"
+		}
+	}
+},
+{
+	user_id:"440104000000998",
+	password:"doctor",
+	roleName:"医生",
+	role_id:"2",
+	roleOperation:{
+		accessPersonalInformation:{
+			query:"true"
+		},
+		accessPatientInformation:{
+			add:"true",
+			delete:"true",
+			edit:"true",
+			query:"true"
+		},
+		accessDoctorInformation:{
+			query:"true"
+		},
+		viewRecords:{
+			query:"true"
+		}
+	}
+},
+{
+	user_id:"440104000000999",
+	password:"doctor",
+	roleName:"医生",
+	role_id:"2",
+	roleOperation:{
+		accessPersonalInformation:{
+			query:"true"
+		},
+		accessPatientInformation:{
+			add:"true",
+			delete:"true",
+			edit:"true",
+			query:"true"
+		},
+		accessDoctorInformation:{
+			query:"true"
+		},
+		viewRecords:{
+			query:"true"
+		}
+	}
+},
+{
+	user_id:"1000",
+	password:"admin",
+	roleName:"管理员",
+	role_id="3",
+	roleOperation:{
+		name:"管理员",
+		accessPersonalInformation:{
+			query:"true"
+		},
+		accessDoctorInformation:{
+			add:"true",
+			delete:"true",
+			edit:"true",
+			query:"true"
+			passwordReset:"true"
+		},
+		accessAdminInformation:{
+			add:"true",
+			delete:"true",
+			edit:"true",
+			query:"true"
+			passwordReset:"true"
+		}
+	}
+}
+])	
+	
